@@ -3,16 +3,17 @@
     background-color: burlywood;
 }
 
-.my-table{
+.myTable{
     width: 100%;
     border: 1px solid black;
     color: blue;
+    text-align: center;
 }
 
-.my-table tr{
+.myTable tr{
     border: 1px solid black;
 }
 
-.my-table td{
+.myTable td{
     border: 1px solid black;
 }

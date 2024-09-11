@@ -22,11 +22,8 @@ list.forEach(liItem => {
     const listItems = document.createElement('li');
     listItems.textContent = liItem;
     ulElement.appendChild(listItems);
-
     listItems.style.color = "blue";
     listItems.style.border = "1px solid brown"
-    listItems.style.listStyle = "none";
-
 });
 
 ulElement.style.display = "flex";
@@ -35,7 +32,7 @@ ulElement.style.justifyContent = "space-between";
 // Qusetion No5
 const tableElement = document.createElement('table');
 
-tableElement.className = 'my-table'; 
+tableElement.className = 'myTable'; 
 
 const tableDiv1 = document.getElementById("tableDiv");
 
@@ -43,11 +40,10 @@ for (let i = 0; i < 2; i++) {
     const row = document.createElement('tr');
     for (let j = 0; j < 3; j++) {
         const col = document.createElement('td');
-        col.textContent = "content"
+        col.textContent = `content ${i+1} ${j+1}`
         row.appendChild(col);
     }
     tableElement.appendChild(row);
 }
 
 tableDiv1.appendChild(tableElement);
-
