@@ -4,6 +4,15 @@
 }
 
 .my-table{
+    width: 100%;
     border: 1px solid black;
     color: blue;
+}
+
+.my-table tr{
+    border: 1px solid black;
+}
+
+.my-table td{
+    border: 1px solid black;
 }
