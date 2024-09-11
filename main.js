@@ -30,11 +30,10 @@ ulElement.style.display = "flex";
 ulElement.style.justifyContent = "space-between";
 
 // Qusetion No5
+const tableDiv1 = document.getElementById("tableDiv");
 const tableElement = document.createElement('table');
 
 tableElement.className = 'myTable'; 
-
-const tableDiv1 = document.getElementById("tableDiv");
 
 for (let i = 0; i < 2; i++) {
     const row = document.createElement('tr');
