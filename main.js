@@ -35,9 +35,9 @@ ulElement.style.justifyContent = "space-between";
 // Qusetion No5
 const tableElement = document.createElement('table');
 
-// table.className = 'my-table'; 
+tableElement.className = 'my-table'; 
 
-const tbody = document.createElement('tbody');
+const tableDiv1 = document.getElementById("tableDiv");
 
 for (let i = 0; i < 2; i++) {
     const row = document.createElement('tr');
@@ -46,10 +46,8 @@ for (let i = 0; i < 2; i++) {
         col.textContent = "content"
         row.appendChild(col);
     }
-    tbody.appendChild(row);
+    tableElement.appendChild(row);
 }
 
-table.appendChild(tbody);
-
-document.body.appendChild(table);
+tableDiv1.appendChild(tableElement);
 
